@@ -16,6 +16,8 @@ My goal is to learn something interesting, gain new knowledge and experience.I a
 - **Languages:** Russian (native) ,  English (basic)
 - **Microsoft Office:** Proficient in Word, Excel and PowerPoint
 ## Code Example
+ 
+ 
  ```let arr = [1, 2, [3, 4]];
 
 Array.prototype.newflat = function () 
