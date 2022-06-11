@@ -1,1 +1,94 @@
-ПРИВЕТ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROMAN SMAKHTSIN CV</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+</head>
+<body> 
+    <div class="wrapper">
+    <header>
+        <h1 class="header-name">RESUME</h1>
+        <section class="info">
+            <div>
+            <h2 class="name-cv">Smakhtsin Roman</h2>
+            <nav class="contact"> 
+                
+                <ul>
+                <li>phone number:<a href="tel:+375293363406"> +375293363406</a></li>
+                <li>email: <a href="mailto:zalupon52@gmail.com"> zalupon52@gmail.com</a></li>
+            </ul>
+        </nav>
+    </div>
+            <img src="./assets/photo1.jpg" alt="profile photo" class="photo">
+        </section>
+    </header>
+    <main>
+        <section>
+            <h3 class="main-section-header">Personal Statement</h3>
+            <p class="main-section-p">My goal is to learn something interesting, gain new knowledge and experience.I am purposeful, attentive and reliable person.</p>
+        </section>
+        <section>
+            <h3 class="main-section-header">Education</h3>
+            <p class="main-section-p">Institute of Entrepreneurship 2013-2018</p>
+        </section>
+        <section>
+            <h3 class="main-section-header">Skills</h3>
+            <ul>
+                <li><strong> Languages:</strong> Russian (native) ,  English (basic)</li>
+                <li><strong> Microsoft Office:</strong> Proficient in Word, Excel and PowerPoint</li>
+            </ul>
+        </section>
+        <section>
+            <h3 class="main-section-header">Personal projects</h3>
+            <a href="https://romanbd2b.github.io/rsschool-cv/cv" target="_blank"> <em>Markdown CV</em></a>
+        </section>
+        <section>
+            <h3 class="main-section-header">Code Example</h3>
+            <p><code>
+                let arr = [1, 2, [3, 4]];<br>
+
+                Array.prototype.newflat = function () <br>
+                  let res = [];<br>
+                  for (let i = 0; i &lt; this.length; i++) {<br>
+                    if (Array.isArray(this[i])) {<br>
+                      res.push(...this[i].newflat());<br>
+                    } else {<br>
+                      res.push(this[i]);<br>
+                    }<br>
+                  }
+                  return res;<br>
+                };<br>
+                
+                arr.newflat();</code></p>
+        </section>
+    </main>
+    <footer>
+        <div class="personal-github">
+            <nav class="links">
+                <a href="https://romanbd2b.github.io/rsschool-cv/cv" target="_blank"><i class="fab fa-github"></i></a>  
+          </nav>
+        </div>
+        <div class="year">
+            <p>2022</p>
+        </div>
+        <div class="school-link">
+            <p><a href="https://rs.school/js/" target="_blank"><img src="./assets/rs_school_js.svg" width="75" 
+                height="75"  alt="RS School link"></a></p>
+        </div>
+        
+    </footer>
+   </div>
+</body>
+</html>
