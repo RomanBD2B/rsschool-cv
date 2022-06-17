@@ -1,1 +1,1 @@
-https://RomanBD2B.github.io/rsschool-cv/
+https://romanbd2b.github.io/rsschool-cv/
